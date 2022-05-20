@@ -1,0 +1,10 @@
+dinner_guests = ['John Maynard Keynes', 'John Stuart Mill', 'Edmund Burke']
+print(f"Hello, {dinner_guests[0]}, would you care to come to supper?")
+print(f"Hello, {dinner_guests[1]}, would you care to come to supper?")
+print(f"Hello, {dinner_guests[2]}, would you care to come to supper?")
+declined = dinner_guests.pop(0)
+print(f"Oh no! {declined} can no longer come. We need to invite someone else!")
+dinner_guests.append('Friedrich Hayek')
+print(f"Hello, {dinner_guests[0]}, would you care to come to supper?")
+print(f"Hello, {dinner_guests[1]}, would you care to come to supper?")
+print(f"Hello, {dinner_guests[2]}, would you care to come to supper?")
